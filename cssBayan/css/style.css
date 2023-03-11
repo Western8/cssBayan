@@ -1,0 +1,26 @@
+html {
+    width: 100vw;
+    background-color: bisque;
+    font-size: 10px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    margin: auto;
+    
+    font-size: 5rem;
+}
+
+.name {
+    margin: auto;
+}
+
+.img {
+    margin: auto;
+/*     width: 200px;
+    height: 200px;
+ */
+}

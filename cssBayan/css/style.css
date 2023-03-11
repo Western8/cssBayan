@@ -1,7 +1,7 @@
 html {
     width: 100vw;
     background-color: bisque;
-    font-size: 10px;
+    font-size: 100%;
 }
 
 
@@ -10,17 +10,75 @@ html {
     flex-direction: column;
     max-width: 1920px;
     margin: auto;
-    
-    font-size: 5rem;
+    font-size: 3rem;
+}
+
+h1 {
+    margin: auto;
+}
+
+.bayan {
+    color: #be4040;
+}
+
+.mem {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn {
+    width: 80%; 
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.06rem solid grey;
+    margin: 1rem auto;
+    padding: 1rem;
 }
 
 .name {
-    margin: auto;
+}
+
+.ico {
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    background: no-repeat url("../assets/img/icon-plus.svg");
 }
 
 .img {
+    display: none;
     margin: auto;
-/*     width: 200px;
-    height: 200px;
- */
+    width: 80%;
+    height: 80%;
 }
+
+.bayan:hover {
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+
+.bayan:hover .ico {
+    display: block;
+}
+
+.mem:hover .img {
+    display: block;
+}
+
+/* 
+.mem:hover .ico {
+    background-color: aqua;
+    src: url("../assets/img/icon-cross.svg");
+}
+ */
+
+/* .btn:hover ~.ico {
+    background-color: green;
+}
+
+.bayan:hover ~.btn {
+    background-color: red;
+}
+ */
